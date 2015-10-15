@@ -106,7 +106,7 @@ var reverseStr = function(str) {
 
 // Put your answer below -------------------------
 var reversestr = function(str){
-  return str.split("").reverse().join("");
+  return str.reverse().split(" ").join("");
 }
 
 // -----------------------------------------------
@@ -142,20 +142,14 @@ var spanishColor = function(colorName) {
 
 // Put your answer below -------------------------
 var spanishColor = function(colorName) {
-  var colors{
-    rojo:red;
-    blanco:white;
-    azul:blue;
-    verde:green;
-    negro:black;
-  }
-  return  {
-    'rojo': '#ff0000',
-    'blanco': '#ffffff',
-    'azul': '#0000ff',
-    'verde': '#00ff00',
-    'negro': '#000000'
-  }[type];
+  var colors = {
+    rojo: "#ff0000",
+    blanco:"#ffffff",
+    azul:"#0000ff",
+    verde:"#00ff00",
+    negro:"#000000"
+  };
+  return colors[colorName];
 }
 
 // -----------------------------------------------
@@ -287,6 +281,7 @@ var accelerate = function(amount) {
 };
 
 // Put your answer below -------------------------
+//Nothing is not a number, and the function is expecting a number, so when you try to add nothing to nothing, you get NaN.
 var speed = 0;
 
 var accelerate = function(amount){
@@ -297,7 +292,6 @@ var accelerate = function(amount){
     speed +=amount;
   }
 }
-//
 
 // -----------------------------------------------
 
