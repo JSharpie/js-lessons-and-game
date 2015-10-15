@@ -29,7 +29,7 @@ function doSomethingCool() {
 
 // Put your answer below -------------------------
 
-  var cool = function coolFunction(){
+  var cool = function(){
     console.log("Something Cool!");
   }
 // -----------------------------------------------
@@ -50,7 +50,7 @@ function sayHi() {
 setTimeout(sayHi, 2000);
 
 // Put your answer below -------------------------
-  var time = function sayingHi(){
+  var time = function(){
     setTimeout(sayingHi, 2000);
     alert("Hello, World!");
   }

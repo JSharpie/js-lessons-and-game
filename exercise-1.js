@@ -39,15 +39,15 @@ var mark = {
 var getAverageTime = function(person) {
   var avg=0;
   var inc=0;
-for (var i in person) {
-  if (person.hasOwnProperty(i)) {
+  for (var i in person) {
+    if (person.hasOwnProperty(i)) {
       avg +=  person[i];
       console.log(person[i]);
       inc++;
+    }
   }
-}
   avg= avg/inc;
-return avg;
+  return avg;
 }
     // ... return ...
 
