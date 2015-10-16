@@ -192,8 +192,8 @@ var callTenTimes = function(callback) {
 
 // Put your answer below -------------------------
 
-var callNtimes = function(callback) {
-  for(var i = 0; i < callback; i++){
+var callNtimes = function(x, callback) {
+  for(var i = 0; i < x; i++){
     console.log(callback);
   }
 }
