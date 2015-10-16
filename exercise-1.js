@@ -87,10 +87,10 @@ function addToBank(account, savings, retirement, checking) {
 
 function getSumOfAccounts(account) {
     "use strict";
-    var avg = 0;
+    var sum = 0;
     for (var i in account) {
       if (account.hasOwnProperty(i)) {
-          avg +=  account[i];
+          sum +=  account[i];
           console.log(account[i]);
       }
 

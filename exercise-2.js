@@ -255,6 +255,7 @@ var twoPlusTwo = addNumbers(2,2);
 var addNumbers = function(numberA, numberB){
   var amount = numberA + numberB;
   console.log(amount);
+  return amount;
 }
 var twoPlusTwo = addNumbers(2,2);
 // -----------------------------------------------
