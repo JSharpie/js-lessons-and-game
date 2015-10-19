@@ -7,7 +7,9 @@
  */
 
 var sum = function(a, b) {
-    return a + b;
+    var ret;
+    ret = a + b;
+    return ret + " (" + a + "+" + b + ")";
     /// return ...
 }
 
